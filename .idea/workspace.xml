@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b98876-c858-48ef-bab3-38a4098b16b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Elevator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elevator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ElevatorGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ElevatorSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElevatorGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElevatorGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElevatorSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElevatorSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alex-chistov"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alex-chistov/Elevator.git&quot;,
+    &quot;accountId&quot;: &quot;acfcd1e5-b24e-4683-a3db-a016a5541658&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2qWNyWf3XR3dCrKTVruYbIcMw0y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,7 +54,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/chist/IdeaProjects/ElevatorRequest-main",
+    "last_opened_file_path": "C:/Users/chist/IdeaProjects/Elevator",
     "onboarding.tips.debug.path": "C:/Users/chist/IdeaProjects/Elevator/src/Main.java"
   }
 }]]></component>

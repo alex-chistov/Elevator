@@ -15,7 +15,8 @@ public class ElevatorSystem {
     public void requestElevator(int requestedFloor) {
         Elevator bestElevator = findBestElevator(requestedFloor);
         Request request = new Request(requestedFloor, requestedFloor);
-        int elevatorIndex = elevators.indexOf(bestElevator) + 1;
+        bestElevator.requestFloor(request);
+        int elevatorIndex = elevators.indexOf(bestElevator) + 1; // Получение индекса лифта (1-based)
         System.out.println("Requested floor: " + requestedFloor + " assigned to elevator " + elevatorIndex + ".");
     }
 

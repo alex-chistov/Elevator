@@ -2,10 +2,17 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Elevator implements Runnable {
-    private int currentFloor = 1;
+    private int currentFloor = 1; // Начальный этаж
     private final Queue<Request> requestQueue = new LinkedList<>();
     private boolean isMovingUp = true;
     private volatile boolean isResetting = false;
+
+    public synchronized void requestFloor(Request request) {
+        if (!isResetting) {
+            requestQueue.add(request);
+            notify();
+        }
+    }
 
     public synchronized void reset() {
         isResetting = true;
@@ -74,7 +81,7 @@ public class Elevator implements Runnable {
         }
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(300);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }

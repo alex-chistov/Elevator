@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Elevator implements Runnable {
-    private int currentFloor = 1; // Начальный этаж
+    private int currentFloor = 1;
     private final Queue<Request> requestQueue = new LinkedList<>();
     private boolean isMovingUp = true;
     private volatile boolean isResetting = false;
